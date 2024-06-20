@@ -49,7 +49,7 @@ export const Player: React.FC<Props> = ({
               max-width: 360px;
               height: 4px;
               margin: -1px;
-              border: 1px solid #e1e4e8;
+              border: 1px solid #ea269a;
               border-radius: 4px;
               overflow: hidden;
               padding: 2px;
@@ -63,7 +63,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 6px;
               transform-origin: left center;
-              background-color: #24292e;
+              background-color: #86f28c;
               animation: progress ${duration}ms linear;
               animation-delay: -${progress}ms;
             }
@@ -138,7 +138,13 @@ export const Player: React.FC<Props> = ({
           paddingLeft: 4,
         }}
       >
-        <Text style={{ width: '16px', marginRight: '16px' }} size="large" weight="bold">{ isPlaying ? '▶' : '' }</Text>
+        <Text
+          style={{ width: "16px", marginRight: "16px" }}
+          size="large"
+          weight="bold"
+        >
+          {isPlaying ? "▶" : ""}
+        </Text>
         <img id="cover" src={cover ?? null} width="48" height="48" />
         <div
           style={{
