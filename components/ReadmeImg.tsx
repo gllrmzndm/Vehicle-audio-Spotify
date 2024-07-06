@@ -18,13 +18,13 @@ const ReadmeImg = ({ width, height, children }) => {
               }
               :root {
                 color: rgb(36, 41, 46);
-                background: #FFF;
+                background: transparent;
               }
 
               @media (prefers-color-scheme: dark) {
                 :root {
                   color: rgb(201, 209, 217);
-                  background: rgb(13, 17, 23);
+                  background: transparent;
                 }
 
                 p {
