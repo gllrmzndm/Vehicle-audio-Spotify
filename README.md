@@ -30,3 +30,9 @@ And i"m using [Nates music player](https://github.com/natemoo-re) customized by 
     </tr>
   </tbody>
 </table>
+
+---
+
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![image](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
